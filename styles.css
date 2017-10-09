@@ -1,0 +1,19 @@
+.buttons{
+    display: inline-block;
+    height: 5em;
+    width:10em;
+    background-color:#8a758c;
+    border: solid thick silver;
+    border-radius: 10px;
+    color: silver;
+    font-size: 16px;
+    margin:0 3em;
+    align-self: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.dice{
+    height: 5em;
+    width: 5em;
+    background-color: lavenderblush;
+    float: left;
+}
