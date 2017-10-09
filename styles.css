@@ -14,7 +14,13 @@
 .dice{
     height: 5em;
     width: 5em;
-    background-color: lavenderblush;
     float: left;
     margin: .5em;
+    background-size: contain;
+    background-position: center;
 }
+/*border: solid thick silver;
+border-radius:10px;
+background-color: black;
+font-size: 16px;
+color:#b72fb5;*/
