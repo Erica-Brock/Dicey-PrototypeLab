@@ -1,6 +1,17 @@
 // 1.Crate three buttons(done in HTML)
 
-var values=[1,2,3,4,5,6];
+var values=[{value:1,
+    image:url("dicey-images/dice-1.png")},
+    {value: 2,
+    image:url("dicey-images/dice-2.png")},
+    {value:3,
+    image:url("dicey-images/dice-3.png")},
+    {value:4,
+    image:url("dicey-images/dice-4.png")},
+    {value:5,
+    image:url("dicey-images/dice-5.jpeg")},
+    {value:6,
+    image:url("dicey-images/dice-6.png")}];
 var newDieValues=[];
 document.addEventListener("DOMContentLoaded", function(){
     var newDie=document.getElementById("new-die");
