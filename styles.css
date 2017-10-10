@@ -18,6 +18,13 @@
     margin: .5em;
     background-size: contain;
     background-position: center;
+    background-color:white;
+}
+body{
+    background-image: url("dicey-images/casino-illusion.jpg");
+    background-size:cover;
+    background-position: cover;
+    background-repeat: no-repeat;
 }
 /*border: solid thick silver;
 border-radius:10px;

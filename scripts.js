@@ -32,8 +32,7 @@ function Die() {
     //remove the die from the page when double clicked
     this.div.addEventListener("dblclick", this.removeOne.bind(this))
     //make the value, and image change when clicked
-    this.div.addEventListener("click", this.rollOne.bind(this))
-
+    this.div.addEventListener("click", this.rollOne.bind(this))                              
 }
 //rolling the die
 Die.prototype.rollOne = function () {
@@ -49,8 +48,6 @@ Die.prototype.removeOne = function () {
 }
 function rollAll() {
     for (var i = 0; i < newDieValues.length; i++) {
-        let changeOne = newDieValues[i];
-        let change = changeOne;
         newDieValues[i].rollOne()
     }
 }
