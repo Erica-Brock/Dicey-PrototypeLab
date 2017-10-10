@@ -37,19 +37,15 @@ function Die() {
 }
 //rolling the die
 Die.prototype.rollOne = function () {
-    //how to find the index of the object in the array
-    var changeOne = newDieValues.indexOf(this);
-    newValue = random();
-    change = newDieValues[changeOne];
-    //changing the value and image
-    change.info.value = newValue.value;
-    //change.info.image = newValue.image;
-    this.div.style.backgroundImage = newValue.image;
+    this.info = random();
+    this.div.style.backgroundImage = this.info.image;
 }
 Die.prototype.removeOne = function () {
     var remove = newDieValues.indexOf(this);
     newDieValues.splice(remove, 1);
+    console.log(this.div);
     document.body.removeChild(this.div);
+    console.log(newDieValues);
 }
 function rollAll() {
     for (var i = 0; i < newDieValues.length; i++) {
